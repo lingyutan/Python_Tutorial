@@ -4,7 +4,7 @@ You can download the sample data at http://www.py4e.com/code3/words.txt
 """
 
 # Use words.txt as the file name
-fname = input("Enter file name: ")
+fname = input("Enter file name: ") # "words.txt"
 fh = open(fname)
 
 for line in fh:
